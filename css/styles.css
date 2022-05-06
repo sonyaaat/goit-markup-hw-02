@@ -54,7 +54,9 @@ letter-spacing: 0.02em;
 .info:focus {
     color: var(--accent-text);
 }
-
+.active{
+    color: var(--accent-text);
+}
 
 /* Hero */
 .hero{
@@ -71,7 +73,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 }
 
-.hero-button{
+.button-hero{
 color:var(--white-header) ;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -133,3 +135,40 @@ color: var(--accent-text);
  .studio{
      color: #FFFFFF;
  }
+
+
+
+
+
+ /* PORTFOLIO HTML */
+
+ /* PORTFOLIO */
+ .button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--headers-text);
+    background-color: var(--main-background);
+    border: none;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ .button:hover{
+     color: var(--white-header);
+     background-color: var(--accent-text);
+ }
+ .portfolio-header{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--headers-text);
+ }
+ .portfolio-text{
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--main-text);
+ }
+ 
+
