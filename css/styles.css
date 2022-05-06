@@ -1,0 +1,135 @@
+:root{
+    --headers-text:#212121;
+    --main-text:#757575;
+    --accent-text:#2196F3;
+    --main-background:#FFFFFF;
+    --white-header:#FFFFFF;
+    --background-accent:#2F303A;
+}
+body{
+font-family: 'Roboto',sans-serif;
+letter-spacing: 0.03em;
+color: var(--main-text);
+background-color: var(--main-background);
+font-size: 14px;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* Header */
+.logo{
+font-family: 'Raleway',sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
+color: var(--headers-text);
+
+}
+.web{
+    color: var(--accent-text);
+}
+.nav-link{
+    color: var(--headers-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.nav-link:hover,
+.nav-link:focus
+{
+    color: var(--accent-text);
+}
+.info{
+color: inherit;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.info:hover,
+.info:focus {
+    color: var(--accent-text);
+}
+
+
+/* Hero */
+.hero{
+    background-color: var(--background-accent);
+}
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+color: var(--white-header);
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.hero-button{
+color:var(--white-header) ;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border-color: var(--white-header);
+cursor:pointer;
+}
+/* Features*/
+.features-header{
+font-weight: 700;
+line-height: 16px;
+text-transform: uppercase;
+color: var(--headers-text);
+}
+.features-text{
+font-weight: 400;
+line-height: 1.7;
+}
+/* header */
+.header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--headers-text);
+}
+/* Occupation */
+
+
+/* Team */
+.team-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+color: var(--headers-text);
+
+}
+.team-text{
+font-size: 16px;
+line-height: 1.19;
+}
+/* FOOTER */
+footer{
+background-color: var(--background-accent)
+}
+.footer-link{
+    font-weight: 400;
+    line-height: 1.7;
+    color: inherit;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.footer-link:hover{
+color: var(--accent-text);
+}
+ .address{
+     color: var(--white-header);
+ }
+ .studio{
+     color: #FFFFFF;
+ }
