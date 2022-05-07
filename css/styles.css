@@ -126,9 +126,10 @@ letter-spacing: 0.03em;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
+color: var(--main-text);
 }
 .team-icon{
-    color: var(--main-background);
+    background-color: var(--main-background);
 }
 /* FOOTER */
 footer{
